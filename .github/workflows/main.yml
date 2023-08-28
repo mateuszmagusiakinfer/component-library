@@ -37,7 +37,7 @@ jobs:
           node-version: '16'
           cache: 'pnpm'
       - name: Install dependencies
-        run: npm install -g pnpm@7.29.0
+        run: npm install -g pnpm@6.32.9
       - name: Frozen
         run: pnpm install --frozen-lockfile
       - name: Build
